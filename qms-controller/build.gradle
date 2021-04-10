@@ -1,0 +1,13 @@
+
+version "0.1"
+group "qms.controller"
+
+grails {
+    plugins {
+        compile project(":qms-service")
+    }
+}
+
+dependencies {
+
+}
